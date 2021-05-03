@@ -1,1 +1,8 @@
 # Sentiment-Analysis-IMDB-Movie-Reviews-02
+
+# Latar belakang
+Sentimen analisis yang merupakan pemrosesan bahasa dengan menggunakan pendekatan untuk mendefinisikan apakah suatu bahasa masuk kedalam kategori positif atau negatif. Pada saat ini komentar yang diberikan oleh masyarakat banyak membahas mengenai berbagai macam aspek seperti pendidikan, ekonomi, industri hiburan, dan lain-lain. Pada industri hiburan, film merupakan sebuah hiburan yang banyak dikomentari oleh masyarakat apakah suatu film bagus atau tidak. Bermula dari banyaknya berbagai macam genre movie yang banyak diminati masyarakat dimana setiap movie yang sudah ditonton, akan diberikan review oleh penonton. Setiap movie dapat dinilai sebagai movie yang bagus atau buruk. Permasalahannya adalah dengan banyaknya genre dan jumlah movie yang beredar sekarang ini membuat penonton kesulitan untuk memilih movie yang bagus atau yang buruk. Untuk mempermudah mengetahui mana review movie yang bagus dan yang buruk maka perlu untuk mengklasifikasikan kedua sentimen yang mungkin berdasarkan review yang sudah diberikan oleh penonton sebelumnya. Setiap review akan diproses sehingga menghasilkan klasifikasi sentimen yang positif dan negatif. 
+Data yang diberikan masih berupa review dari berbagai penonton dengan bahasa dan tanda baca yang bebas, oleh karena itu data yang diperoleh terlebih dahulu di preprocessing agar mudah untuk diklasifikasikan. 
+
+# Tujuan
+Adapun tujuan dari pengerjaan proyek ini adalah untuk melakukan analisis sentimen terhadap dataset IMDB Movie Reviews. Sentimen analisis review movie dilakukan untuk mengetahui klasifikasi dari movie berdasarkan review yang ada apakah movie tersebut termasuk ke dalam kategori positif atau negatif. 
