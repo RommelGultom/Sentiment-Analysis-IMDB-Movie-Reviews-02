@@ -6,3 +6,7 @@ Data yang diberikan masih berupa review dari berbagai penonton dengan bahasa dan
 
 # Tujuan
 Adapun tujuan dari pengerjaan proyek ini adalah untuk melakukan analisis sentimen terhadap dataset IMDB Movie Reviews. Sentimen analisis review movie dilakukan untuk mengetahui klasifikasi dari movie berdasarkan review yang ada apakah movie tersebut termasuk ke dalam kategori positif atau negatif. 
+
+# Kesimpulan
+Pada proyek sentimen analisis dataset movie yang telah dikerjakan menggunakan algoritma Naïve Bayes menggunakan library spark.mllib. Dataset yang semula adalah format .csv akan diubah ke format .parquet hal ini agar mendukung pemrosesan data secara terdistribusi. Data yang digunakan terlebih dahulu dilakukan text preprocessing agar menghasilkan data yang lebih baik sebelum diklasifikasikan. Data yang sudah di-preprocessing selanjutnya akan diklasifikasikan menjadi sentiment yang positif dan negatif.  
+Selanjutnya data akan dibagi menjadi data train dan data test. Berdasarkan hasil pengujian menggunakan model Naive Bayes pada data train dan data test yang diuji dengan rasio 80:20. Dapat dilihat bahwa performa yang dihasilkan dari model yang dibangun untuk mengklasfikasikan review positif dan negatif adalah 0.8617343844754397 atau akurasi sebesar 86%.
